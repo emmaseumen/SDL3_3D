@@ -1,13 +1,13 @@
 # SDL3_3D
-#📚 PROGET D IMPLEMENTATION DE SDL3
+# 📚 PROGET D IMPLEMENTATION DE SDL3
 Ce proget montre un programme ecrit en c++ utilisant SDL3 pour afficher une fenetre avec un carre bleu que l utilisateur peut deplacer avec les touches.
 
-##📰 Objectif du programme
+## 📰 Objectif du programme
 .Creer une fenetre SDL3
 .Dessiner un carre bleu 
 .Deplacer ce carre avec les touches du clavier
 
-###🛤️ Ce qu il faut avoir pour le faire
+### 🛤️ Ce qu il faut avoir pour le faire
 .SDL3 doit etre installe
 .Un compilateur c++(g++, clang++, ect)
 
