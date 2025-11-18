@@ -11,9 +11,6 @@ Ce proget montre un programme ecrit en c++ utilisant SDL3 pour afficher une fene
 .SDL3 doit etre installe
 .Un compilateur c++(g++, clang++, ect)
 
-### compilation
-clang++ -IC:/msys2/Ucrt64/include -LC:/msys2/Ucrt64/lib -lSDL3 -o nom.exe nom_du_fichier.cpp
-
 ## 💻 CODE PRINCIPALE
 ### Localisation du proget
 #### SDL3/sdl_3D.cpp
@@ -29,7 +26,7 @@ int main(){
     //pour creer une fenetre 
     SDL_Window* window = SDL_CreateWindow("point bleu", 800, 600, SDL_WINDOW_RESIZABLE);//Pour donner les dimentions de notre fenetre
     //creer le renderer pour dessiner
-    SDL_Renderer* renderer = SDL_CreateRenderer(window, nullptr, 0);//pour dessiner des formes et donner des couleurs
+    SDL_Renderer* renderer = SDL_CreateRenderer(window, nullptr);//pour dessiner des formes et donner des couleurs
     
     //position du point
     int x = 400;
@@ -78,3 +75,6 @@ int main(){
 .SDL_CreateRenderer() pour permettre de dessiner
 .SDL_PollEvent pour les touches du clavier 
 .SDL_RenderPresent() pour afficher le rendu
+
+# Developpememt personnel
+En realisant ce proget l etudiant obtien des competence en SDL3, a ouvrir une fenetre pour en dessiner soit un objet, une forme, une image et mettre des couleurs 
